@@ -1,19 +1,19 @@
+@import url(__title/lead__title.css);
+@import url(__subtitle/lead__subtitle.css);
+@import url(__image/lead__image.css);
+@import url(__image-front/lead__image-front.css);
+@import url(__caption/lead__caption.css);
+@import url(__picture/lead__picture.css);
+
 .lead {
-  /* border: 1px solid red; */
-  max-width: 85%;
-  margin: 0 auto;
-  /* background-image: url('../images/lead-road.png');
-  z-index: 1; */
+  display: flex;
+  margin: 56px auto 0;
+  flex-direction: column;
+  justify-content: center;  
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .lead {
-    max-width: 928px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-  .lead {
-    max-width: 720px;
+    margin: 48px auto 0;
   }
 }

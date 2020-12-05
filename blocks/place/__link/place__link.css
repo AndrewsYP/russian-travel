@@ -1,22 +1,13 @@
 .place__link {
-  /* border: 1px solid red; */
-  color: white;
-  font-family: Inter, Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
-  margin: 0;
-  align-self: start;
-
-
-
+  line-height: 1.22;
+  color: white;
+  text-decoration: underline;
+  
+  margin: 12px 0 0 0;
+  padding: 0;
 }
+
 .place__link:hover {
-  opacity: 50%;
-}
-@media screen and (max-width: 420px) {
-   .place__link {
-    display: none;
-  }
+  opacity: 0.8;
 }

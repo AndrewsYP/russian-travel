@@ -1,29 +1,29 @@
-.intro {
-  /* border: 1px solid red; */
-  max-width: 85%;
-  margin: 0 auto;
-}
-@media screen and (max-width: 1024px) {
-    .intro {
-      max-width: 928px;
+@import url(__title/intro__title.css);
+@import url(__text/intro__text.css);
+@import url(__list/intro__list.css);
+@import url(__list-item/intro__list-item.css);
 
-      }
+.intro {
+  width: 984px;
+  margin: 92px auto 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro {
+    max-width: 928px;
   }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin: 88px auto 0;
+    max-width: 720px;
+  }
+}
 
 @media screen and (max-width: 768px) {
-   .intro {
-
-/* identical to box height, or 109% */
-max-width: 720px;
-
- }
-}
-@media screen and (max-width: 420px) {
-    .intro {
-
+  .intro {
+    margin: 64px auto 0;
     max-width: 288px;
-    
-
-
-    }
+  }
 }

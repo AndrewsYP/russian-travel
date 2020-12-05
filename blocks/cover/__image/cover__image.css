@@ -1,0 +1,31 @@
+.cover__image {
+  width: 1184px;
+  height: 740px;
+  background-image: url(../../../images/cover/cover__background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover__image {
+    max-width: 1024px;
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__image {
+    max-width: 768px;
+    height: 480px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .cover__image {
+    max-width: 320px;
+    height: 200px;
+  }
+} 
