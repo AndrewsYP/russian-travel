@@ -11,3 +11,6 @@
 5. работа с grid;
 6. работа с flex;
 7. Применение методологии БЭМ.
+
+
+[Опубликованный ресурс](https://andrewsyp.github.io/russian-travel/)
