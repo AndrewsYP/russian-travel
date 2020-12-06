@@ -1,5 +1,5 @@
 .header__lang-link_type_active {
   pointer-events: none;
-  cursor: default; 
+  cursor: default;
   text-decoration: underline;
 }
