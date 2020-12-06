@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: 45% auto;
   grid-template-rows: repeat(3, auto);
-  grid-column-gap: 40px;  
+  grid-column-gap: 40px;
   margin: 0 auto;
   padding-bottom: 80px;
 }
@@ -18,7 +18,7 @@
   .place {
     max-width: 720px;
     gap: 32px;
-    grid-template-columns: 1fr;    
+    grid-template-columns: 1fr;
     padding-bottom: 10px;
   }
 }
