@@ -10,7 +10,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
   .place__link {
    display: none;
  }

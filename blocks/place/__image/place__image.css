@@ -1,5 +1,5 @@
 .place__image {
   grid-row-start: 3;
   grid-row-end: 6;
-  width: 100%;
+  max-width: 100%;
 }

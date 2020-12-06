@@ -10,8 +10,15 @@
   grid-template-columns: 45% auto;
   grid-template-rows: repeat(3, auto);
   grid-column-gap: 40px;
-  margin: 0 auto;
-  padding-bottom: 80px;
+  margin: 80px auto;
+}
+
+.place:first-child {
+  margin-top: 0;
+}
+
+.place:last-child {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -19,13 +26,29 @@
     max-width: 720px;
     gap: 32px;
     grid-template-columns: 1fr;
-    padding-bottom: 10px;
+    margin: 72px auto;
+  }
+
+  .place:first-child {
+    margin-top: 0;
+  }
+
+  .place:last-child {
+    margin-bottom: 0;
   }
 }
 
 @media screen and (max-width: 480px) {
    .place {
       display: block;
-      padding-bottom: 0px;
+      margin: 49px auto;
    }
+
+   .place:first-child {
+    margin-top: 0;
+  }
+
+   .place:last-child {
+    margin-bottom: 0;
+  }
 }
