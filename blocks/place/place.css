@@ -25,30 +25,14 @@
   .place {
     max-width: 720px;
     gap: 32px;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto auto;
     margin: 72px auto;
-  }
-
-  .place:first-child {
-    margin-top: 0;
-  }
-
-  .place:last-child {
-    margin-bottom: 0;
   }
 }
 
-@media screen and (max-width: 480px) {
-   .place {
-      display: block;
-      margin: 49px auto;
-   }
-
-   .place:first-child {
-    margin-top: 0;
-  }
-
-   .place:last-child {
-    margin-bottom: 0;
+@media screen and (max-width: 767px) {
+  .place {
+    display: block;
+    margin: 49px auto;
   }
 }

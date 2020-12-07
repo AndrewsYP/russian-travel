@@ -6,23 +6,27 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
+  margin: 0 auto;
   padding: 92px 0;
 }
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
+    max-width: 928px;
     padding-bottom: 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
  .photo-grid {
+    max-width: 720px;
     padding: 88px 0;
   }
 }
 
 @media screen and (max-width: 420px) {
   .photo-grid {
+    max-width: 288px;
     padding: 64px 0;
     gap: 12px;
   }

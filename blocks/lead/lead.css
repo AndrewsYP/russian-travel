@@ -4,7 +4,7 @@
 @import url(__picture/lead__picture.css);
 
 .lead {
-  max-width: 85%;
+  max-width: 984px;
   margin: 0 auto;
   padding: 48px 0 92px;
 }
@@ -12,7 +12,7 @@
 @media screen and (max-width: 1024px) {
   .lead {
     max-width: 928px;
-    }
+  }
 }
 
 @media screen and (max-width: 768px) {
