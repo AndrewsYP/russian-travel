@@ -6,7 +6,6 @@
   text-align: center;
   max-width: 560px;
   text-decoration: none;
-  display: block;
   margin: 0 0 32px;
 }
   
@@ -15,5 +14,11 @@
     font-size: 32px;
     line-height: 35px;
     margin-bottom: 16px;  
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    max-width: 288px;
   }
 }

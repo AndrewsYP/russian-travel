@@ -7,7 +7,7 @@
   padding: 0;
 }
 
-.place__paragraph:nth-of-type(2n){
+.place__paragraph:nth-of-type(3n){
   margin-top: 26px;
 }
 
@@ -23,7 +23,7 @@
     margin: 32px 16px 0;
   }
 
-  .place__paragraph:nth-of-type(2n){
+  .place__paragraph:nth-of-type(3n){
     margin-top: 25px;
   }
 }
