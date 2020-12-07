@@ -3,11 +3,12 @@
   font-style: normal;
   font-weight: normal;
   line-height: 1.66;
+  display: block;
   margin: 0;
   padding: 0;
 }
 
-.place__paragraph:nth-of-type(3n){
+.place__paragraph:nth-of-type(2n) {
   margin-top: 26px;
 }
 
@@ -23,7 +24,7 @@
     margin: 32px 16px 0;
   }
 
-  .place__paragraph:nth-of-type(3n){
+  .place__paragraph:nth-of-type(2n){
     margin-top: 25px;
   }
 }
