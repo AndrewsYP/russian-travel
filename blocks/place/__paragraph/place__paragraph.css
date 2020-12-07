@@ -4,7 +4,11 @@
   font-weight: normal;
   line-height: 1.66;
   margin: 0;
-  padding-bottom: 26px;
+  padding: 0;
+}
+
+.place__paragraph:nth-of-type(2n){
+  margin-top: 26px;
 }
 
 @media screen and (max-width: 768px) {
@@ -17,5 +21,9 @@
   .place__paragraph {
     max-width: 288px;
     margin: 32px 16px 0;
+  }
+
+  .place__paragraph:nth-of-type(2n){
+    margin-top: 25px;
   }
 }
