@@ -4,12 +4,12 @@
   font-weight: normal;
   line-height: 1.66;
   display: block;
-  margin: 0;
+  margin: 26px 0 0;
   padding: 0;
 }
 
-.place__paragraph:nth-of-type(2n) {
-  margin-top: 26px;
+.place__paragraph:first-of-type {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -18,13 +18,13 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
     max-width: 288px;
-    margin: 32px 16px 0;
+    margin: 25px 16px 0;
   }
 
-  .place__paragraph:nth-of-type(2n){
-    margin-top: 25px;
+  .place__paragraph:first-of-type{
+    margin-top: 32px;
   }
 }

@@ -21,12 +21,6 @@
   margin-bottom: 0;
 }
 
-/* @media screen and (max-width: 1024px){
-  .place{
-    grid-column-gap: 60px;
-  }
-} */
-
 @media screen and (max-width: 768px) {
   .place {
     max-width: 720px;

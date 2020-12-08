@@ -10,6 +10,7 @@
   grid-row-end: 2;
   margin: 0 0 48px 0;
   padding: 0;
+  align-self: end;
 }
 
 @media screen and (max-width: 1024px) {
